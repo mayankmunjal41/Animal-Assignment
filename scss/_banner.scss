@@ -1,0 +1,61 @@
+.banner {
+  height: calc(100vh - 55px);
+  background: url("../animal-images/banner.png") no-repeat center;
+  background-size: cover;
+  padding: 20px 16px;
+  p {
+    font-size: 28px;
+  }
+  .name {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  .date {
+    font-size: 16px;
+  }
+  .scroll:hover {
+    cursor: pointer;
+  }
+  .placeholder-text {
+    font-size: 18px;
+  }
+  @media screen and (min-width: 768px) {
+    height: calc(100vh - 80px);
+    padding: 16px 80px;
+    p {
+      font-size: 40px;
+      letter-spacing: 1.5px;
+    }
+    .name {
+      font-size: 21px;
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    height: calc(100vh - 80px);
+    padding: 16px 80px;
+    p {
+      font-size: 40px;
+      letter-spacing: 1.5px;
+    }
+    .name {
+      font-size: 21px;
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    height: 700px;
+    padding: 16px 28px;
+    p:first-child {
+      font-size: 56px;
+      width: 70%;
+      line-height: 70px;
+      margin-bottom: 45px;
+    }
+    .name {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+  }
+}

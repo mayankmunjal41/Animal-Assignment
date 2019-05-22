@@ -1,0 +1,502 @@
+.navbar .navbar-toggler {
+  border: none;
+}
+.navbar .navbar-toggler .navbar-toggler-icon > div {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+}
+.navbar .navbar-brand img {
+  width: 50px;
+  margin-bottom: 5px;
+  margin-right: 8px;
+}
+@media screen and (min-width: 768px) {
+  .navbar {
+    padding: 20px 16px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .navbar {
+    padding: 11.5px 28px;
+  }
+  .navbar .navbar-nav {
+    font-size: 14px;
+  }
+  .navbar .navbar-nav a {
+    margin-left: 42px;
+  }
+  .navbar .navbar-brand img {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+  .navbar .navbar-brand span {
+    font-size: 31px;
+  }
+}
+
+.banner {
+  height: calc(100vh - 55px);
+  background: url("../animal-images/banner.png") no-repeat center;
+  background-size: cover;
+  padding: 20px 16px;
+}
+.banner p {
+  font-size: 28px;
+}
+.banner .name {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.banner .date {
+  font-size: 16px;
+}
+.banner .scroll:hover {
+  cursor: pointer;
+}
+.banner .placeholder-text {
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  .banner {
+    height: calc(100vh - 80px);
+    padding: 16px 80px;
+  }
+  .banner p {
+    font-size: 40px;
+    letter-spacing: 1.5px;
+  }
+  .banner .name {
+    font-size: 21px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .banner {
+    height: calc(100vh - 80px);
+    padding: 16px 80px;
+  }
+  .banner p {
+    font-size: 40px;
+    letter-spacing: 1.5px;
+  }
+  .banner .name {
+    font-size: 21px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .banner {
+    height: 700px;
+    padding: 16px 28px;
+  }
+  .banner p:first-child {
+    font-size: 56px;
+    width: 70%;
+    line-height: 70px;
+    margin-bottom: 45px;
+  }
+  .banner .name {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.font-nunito {
+  font-family: "Nunito", sans-serif;
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-merriweather {
+  font-family: "Merriweather", sans-serif;
+}
+
+.bg-black {
+  background: #000;
+}
+
+input:focus,
+button:focus {
+  outline: none !important;
+}
+
+a:hover {
+  color: inherit;
+}
+
+main .blogs .title {
+  font-size: 24px;
+  margin-top: 26px;
+}
+main .blogs .description {
+  font-size: 18px;
+  letter-spacing: -0.09px;
+  text-transform: capitalize;
+  font-weight: bold;
+  width: 90%;
+  margin-bottom: 8px;
+  line-height: 22px;
+  font-family: "Nunito", sans-serif;
+}
+main .blogs .name,
+main .blogs .date {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+main .blogs .name {
+  text-transform: uppercase;
+}
+main .blogs .recent-posts .row {
+  padding: 0 16px;
+}
+main .blogs .recent-posts .row .blog {
+  height: 220px;
+  margin-bottom: 24px;
+  background-size: cover !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #ffffff;
+  padding-bottom: 16px;
+}
+main .blogs .recent-posts .row .rp-1 {
+  background: url("../animal-images/landscape-post.png") center;
+}
+main .blogs .recent-posts .row .rp-2 {
+  background: url("../animal-images/rp-2.png") center;
+}
+main .blogs .recent-posts .row .rp-3 {
+  background: url("../animal-images/rp-3.png") center;
+}
+main .blogs .recent-posts .row .rp-4 {
+  background: url("../animal-images/rp-4.png") center;
+}
+main .blogs .recent-posts .row .rp-5 {
+  background: url("../animal-images/rp-5.png") center;
+}
+main .blogs .recent-posts .row .rp-6 {
+  background: url("../animal-images/rp-6.png") center;
+}
+main .blogs .recent-posts .view {
+  font-size: 22px;
+}
+main .blogs .recent-posts .view:hover {
+  cursor: pointer;
+}
+main .blogs .previous-posts .title {
+  margin-top: 0;
+}
+main .blogs .previous-posts .row .card {
+  border: none;
+}
+main .blogs .previous-posts .row .card .card-body {
+  padding: 0;
+  margin: 16px 0;
+}
+@media screen and (min-width: 768px) {
+  main {
+    padding: 0 !important;
+    max-width: 740px;
+  }
+  main .blogs .title {
+    font-size: 31px;
+    margin-bottom: 26px;
+  }
+  main .blogs .description {
+    font-size: 21px;
+    width: 100% !important;
+  }
+  main .blogs .recent-posts .row .blog {
+    height: auto;
+  }
+  main .blogs .recent-posts .row .col-md-4 .blog {
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0;
+  }
+  main .blogs .recent-posts .row .col-md-4 .description {
+    font-size: 19px;
+    margin: 0;
+  }
+  main .blogs .recent-posts .row .col-md-4 span {
+    display: none;
+  }
+  main .blogs .recent-posts .row .col-md-4 .name,
+main .blogs .recent-posts .row .col-md-4 .date {
+    display: none;
+  }
+  main .blogs .recent-posts .one .rp-1 {
+    max-width: 63.3% !important;
+    margin-right: 24px !important;
+  }
+  main .blogs .recent-posts .two {
+    flex-direction: row-reverse !important;
+  }
+  main .blogs .recent-posts .two .rp-3 {
+    max-width: 63.3% !important;
+    margin-left: 24px !important;
+  }
+  main .blogs .previous-posts .card img {
+    height: 225px;
+  }
+  main .blogs .previous-posts .card .description {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  main .blogs .previous-posts .card .name,
+main .blogs .previous-posts .card .date {
+    font-weight: bold;
+  }
+  main .blogs .previous-posts .card .date {
+    font-size: 12px;
+    color: #7e7e7e;
+  }
+}
+@media screen and (min-width: 1280px) {
+  main {
+    max-width: 1230px !important;
+  }
+  main .blogs .title {
+    font-size: 40px;
+  }
+  main .blogs .description {
+    font-size: 22px;
+  }
+  main .blogs .recent-posts .row .col-md-4 .blog {
+    height: 260px;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+  }
+  main .blogs .recent-posts .row .col-md-4 .description {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  main .blogs .recent-posts .row .col-md-4 .name,
+main .blogs .recent-posts .row .col-md-4 .date {
+    display: block;
+  }
+  main .blogs .recent-posts .row .col-md-4 span {
+    display: inline;
+  }
+  main .blogs .recent-posts .row .col-md-8 .description {
+    width: 60% !important;
+    line-height: 30px;
+  }
+  main .blogs .recent-posts .one .rp-1 {
+    max-width: 64.6% !important;
+  }
+  main .blogs .recent-posts .two .rp-3 {
+    max-width: 64.6% !important;
+  }
+  main .blogs .previous-posts .card {
+    margin-bottom: 16px;
+    padding: 0 12.5px !important;
+  }
+  main .blogs .previous-posts .card img {
+    height: 250px;
+  }
+  main .blogs .previous-posts .card .description {
+    width: 90% !important;
+    font-size: 22px;
+  }
+}
+
+footer {
+  color: #fff;
+  padding: 36px 25px !important;
+  margin-top: 30px;
+}
+footer p {
+  letter-spacing: 0.02px;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+footer img {
+  width: 80px;
+}
+footer .links {
+  margin-top: 77px;
+}
+footer .links ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+footer .links ul li {
+  text-transform: uppercase;
+  letter-spacing: 0.43px;
+  font-size: 14px;
+  width: 100px;
+  opacity: 0.8;
+}
+footer .newsletter {
+  margin-top: 32px;
+}
+footer .newsletter .subscribe {
+  padding: 2px 20px;
+}
+footer .join {
+  margin-top: 36px;
+  margin-bottom: 54px;
+}
+footer .join button {
+  border: 1px solid #fff !important;
+  color: #fff;
+  text-transform: uppercase;
+  background: none !important;
+  letter-spacing: 0.65px;
+  line-height: 16px;
+  font-size: 14px;
+  padding: 13px 40px;
+  margin-top: 8px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  footer {
+    max-width: 100% !important;
+  }
+  footer .col-md-5 {
+    padding-left: 40px;
+  }
+  footer .links {
+    margin-top: 0;
+  }
+  footer .links ul li {
+    font-size: 12px;
+  }
+  footer p {
+    font-size: 14px;
+  }
+  footer .newsletter input {
+    font-size: 12px;
+  }
+  footer .newsletter button {
+    font-size: 12px;
+  }
+  footer .join {
+    margin-top: 0;
+  }
+  footer .join button {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  footer .col-md-2 {
+    padding-left: 28px;
+  }
+  footer .col-md-5 {
+    padding-left: 100px;
+  }
+  footer .newsletter {
+    width: 70%;
+  }
+}
+
+.blog-toggle {
+  padding-left: 16px;
+  flex-wrap: wrap;
+  display: block;
+  margin-top: 16px;
+}
+.blog-toggle button {
+  background: #f6f6f6;
+  color: #767676 !important;
+  text-transform: uppercase;
+  margin-right: 5px;
+  margin-bottom: 16px;
+  border-radius: 0;
+  font-size: 14px;
+}
+.blog-toggle button:focus {
+  background: #d8d8d8;
+  box-shadow: none;
+  opacity: 0.9;
+}
+.blog-toggle .active {
+  background: #d8d8d8;
+  opacity: 0.9;
+}
+
+.blog-content {
+  padding: 16px;
+}
+
+hr {
+  border-top: 1px solid #000;
+  width: 50px;
+  margin-left: 0;
+}
+
+.share span {
+  margin-right: 10px;
+}
+.share i {
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 1280px) {
+  .blog-banner {
+    padding-bottom: 45px;
+  }
+  .blog-banner p:first-child {
+    width: 90% !important;
+    margin-bottom: 26px;
+  }
+  .blog-banner .placeholder-text {
+    font-size: 20px;
+    width: 70%;
+    margin-bottom: 26px;
+  }
+
+  .blog-toggle {
+    max-width: 50%;
+    margin: 0px auto;
+    margin-top: 46px;
+  }
+
+  .blog-content {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  .blog-content p {
+    font-size: 20px;
+  }
+
+  hr,
+.share {
+    margin-top: 46px;
+  }
+
+  .share i {
+    font-size: 20px;
+    margin-right: 16px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

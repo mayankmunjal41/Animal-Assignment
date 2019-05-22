@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="18px" viewBox="0 0 28 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 83</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="3.8 0.667 14 10.844 24.2 0.667 27.3333 3.8 14 17.133 0.6667 3.8"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VEU-MAG_MOBILE" transform="translate(-166.000000, -603.000000)">
+            <g id="Group-83" transform="translate(166.000000, 603.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-82"></g>
+                <polygon id="Fill-81" fill="#FFFFFF" mask="url(#mask-2)" points="-4.3333 -4.333 32.3333 -4.333 32.3333 22.133 -4.3333 22.133"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

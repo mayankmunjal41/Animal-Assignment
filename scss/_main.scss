@@ -1,0 +1,214 @@
+main {
+  .blogs {
+    .title {
+      font-size: 24px;
+      margin-top: 26px;
+    }
+    .description {
+      font-size: 18px;
+      letter-spacing: -0.09px;
+      text-transform: capitalize;
+      font-weight: bold;
+      width: 90%;
+      margin-bottom: 8px;
+      line-height: 22px;
+      font-family: "Nunito", sans-serif;
+    }
+    .name,
+    .date {
+      margin-bottom: 0;
+      font-size: 14px;
+    }
+    .name {
+      text-transform: uppercase;
+    }
+    .recent-posts {
+      .row {
+        padding: 0 16px;
+        .blog {
+          height: 220px;
+          margin-bottom: 24px;
+          background-size: cover !important;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          color: #ffffff;
+          padding-bottom: 16px;
+        }
+        .rp-1 {
+          background: url("../animal-images/landscape-post.png") center;
+        }
+        .rp-2 {
+          background: url("../animal-images/rp-2.png") center;
+        }
+        .rp-3 {
+          background: url("../animal-images/rp-3.png") center;
+        }
+        .rp-4 {
+          background: url("../animal-images/rp-4.png") center;
+        }
+        .rp-5 {
+          background: url("../animal-images/rp-5.png") center;
+        }
+        .rp-6 {
+          background: url("../animal-images/rp-6.png") center;
+        }
+      }
+      .view {
+        font-size: 22px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .previous-posts {
+      .title {
+        margin-top: 0;
+      }
+      .row {
+        .card {
+          border: none;
+          .card-body {
+            padding: 0;
+            margin: 16px 0;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 768px) {
+    padding: 0 !important;
+    max-width: 740px;
+    .blogs {
+      .title {
+        font-size: 31px;
+        margin-bottom: 26px;
+      }
+      .description {
+        font-size: 21px;
+        width: 100% !important;
+      }
+      .recent-posts {
+        .row {
+          .blog {
+            height: auto;
+          }
+          .col-md-4 {
+            .blog {
+              height: 175px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              padding-bottom: 0;
+            }
+            .description {
+              font-size: 19px;
+              margin: 0;
+            }
+            span {
+              display: none;
+            }
+            .name,
+            .date {
+              display: none;
+            }
+          }
+        }
+        .one {
+          .rp-1 {
+            max-width: 63.3% !important;
+            margin-right: 24px !important;
+          }
+        }
+        .two {
+          flex-direction: row-reverse !important;
+          .rp-3 {
+            max-width: 63.3% !important;
+            margin-left: 24px !important;
+          }
+        }
+      }
+      .previous-posts {
+        .card {
+          img {
+            height: 225px;
+          }
+          .description {
+            font-size: 20px;
+            line-height: 28px;
+          }
+          .name,
+          .date {
+            font-weight: bold;
+          }
+          .date {
+            font-size: 12px;
+            color: #7e7e7e;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    max-width: 1230px !important;
+    .blogs {
+      .title {
+        font-size: 40px;
+      }
+      .description {
+        font-size: 22px;
+      }
+      .recent-posts {
+        .row {
+          .col-md-4 {
+            .blog {
+              height: 260px;
+              justify-content: flex-end;
+              padding-bottom: 20px;
+            }
+            .description {
+              font-size: 22px;
+              line-height: 30px;
+              margin-bottom: 10px;
+            }
+            .name,
+            .date {
+              display: block;
+            }
+            span {
+              display: inline;
+            }
+          }
+          .col-md-8 .description {
+            width: 60% !important;
+            line-height: 30px;
+          }
+        }
+        .one {
+          .rp-1 {
+            max-width: 64.6% !important;
+          }
+        }
+        .two {
+          .rp-3 {
+            max-width: 64.6% !important;
+          }
+        }
+      }
+      .previous-posts {
+        .card {
+          margin-bottom: 16px;
+          padding: 0 12.5px !important;
+          img {
+            height: 250px;
+          }
+          .description {
+            width: 90% !important;
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+}
